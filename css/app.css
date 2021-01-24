@@ -5674,16 +5674,16 @@ input::-ms-clear {
 
 /* Extension Mega Menu */
 .mega-text {
-  width: 34px;
-  height: 34px;
-  display: inline-block;
+  width: auto;
+  padding: 10px;
+  /* display: inline-block; */
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   background-color: #ff4500;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 34px;
   text-align: center;
   cursor: pointer;
@@ -5728,16 +5728,15 @@ input::-ms-clear {
 
 @media (max-width: 1024px) {
   .toggle-mega-text {
-    width: 34px;
-    display: inline-block;
-    height: 34px;
+    width: auto;
+    padding: 10px;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
     background-color: #ff4500;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 34px;
     text-align: center;
     cursor: pointer;
